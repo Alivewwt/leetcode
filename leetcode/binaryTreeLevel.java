@@ -1,5 +1,5 @@
 /*
-对一棵树中序遍历
+对一棵树层次遍历
 定义一个队列，
 */
 public class Solution {
