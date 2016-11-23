@@ -1,3 +1,7 @@
+/*
+对一棵树中序遍历
+定义一个队列，
+*/
 public class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>>  result=new ArrayList<>();
