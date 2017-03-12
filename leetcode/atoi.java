@@ -1,6 +1,6 @@
 package project.leetcode;
 /*
- * 实现一个atoi函数来吧字符串转换为整形变量
+ * 实现一个atoi函数来把字符串转换为整形变量
  */
 public class atoi {
 	/*
