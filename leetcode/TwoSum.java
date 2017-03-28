@@ -11,13 +11,13 @@ public class solution{
         int res[]=new int[2];
         Map< Integer, Integer> map=new HashMap<Integer,Integer>();
         
-        for(int i=0;i<nums.length;i++){
-        	map.put(nums[i], i);
+        for(int i=0;i<nums.length;i++){       	
         	if(map.containsKey(target-nums[i])){
         		int r=target-nums[i];
-        		res[0]=i;
-        		res[1]=map.get(r);
+        		res[1]=i;
+        		res[0]=map.get(r);
         	}
+            map.put(nums[i], i);
         }
         return res;
     }
