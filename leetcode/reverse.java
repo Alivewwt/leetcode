@@ -10,7 +10,6 @@ public class reverse {
 			return x;
 		char ch=s.charAt(0);
 		int b;
-		String str="";
 		long res = 0;		
 		x=Math.abs(x);
 		while(x!=0){
