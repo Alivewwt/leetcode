@@ -9,7 +9,7 @@ public class reverse {
 		if(s.length()==1)
 			return x;
 		char ch=s.charAt(0);
-		int a,b;
+		int b;
 		String str="";
 		long res = 0;		
 		x=Math.abs(x);
