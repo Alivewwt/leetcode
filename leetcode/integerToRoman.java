@@ -14,7 +14,7 @@ public class integerToRoman {
         		int count=num/val[i];
         		num%=val[i];
         		for(int j=0;j<count;j++){
-        			res+=dict[j];
+        			res+=dict[i];
         		}
         	}
         	
