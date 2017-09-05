@@ -1,5 +1,9 @@
 package project.leetcode;
-
+/*
+*题目:https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+* 'abcabcbb',返回长度3 ，即'abc'
+* 'bbb'，返回长度1，即'b'
+*/
 public class noRepeat {
 	public  int lengthOfLongestSubstring(String s) {
 		if (s == null || s.length() == 0 || s.length() == 1)

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
+ * 题目:https://leetcode.com/problems/binary-watch/description/
  * 二进制表
  * 1 2 4 8 时
  * 1 2 4 8 16 32 分

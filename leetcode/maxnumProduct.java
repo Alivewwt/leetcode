@@ -1,7 +1,10 @@
 package project.leetcode;
 
 import java.util.Arrays;
-
+/*
+* 题目:https://leetcode.com/problems/maximum-product-of-three-numbers/description/
+* 输出数组中三个数乘积最大的结果
+*/
 public class maxnumProduct {
 	public int maximumProduct(int[] nums) {
 		int res=Integer.MIN_VALUE;

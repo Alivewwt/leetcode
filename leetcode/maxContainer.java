@@ -1,5 +1,6 @@
 package project.leetcode;
 /*
+ * 题目：https://leetcode.com/problems/container-with-most-water/description/
  * 盛水的最大容积
  * 从两边向中间考虑，盛水的面积是由（两端较小的高度）×（两个板之间的宽度）决定的
  * 假定初始的盛水面积是area=0,lh为左边的高度，rh为右边的高度，如果lh<rh，则向右运动，寻找第一个比lh大的节点。同理，如果lh>rh

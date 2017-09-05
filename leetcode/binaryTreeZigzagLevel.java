@@ -8,8 +8,8 @@
  * }
  */
 /*
-问题描述
-对一棵树进行层次遍历，奇数行的节点不需逆置，偶数行的节点逆置
+* 题目:https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/
+* 对一棵树进行层次遍历，奇数行的节点不需逆置，偶数行的节点逆置
 */
 public class Solution {
     //奇数行节点不需逆置

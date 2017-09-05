@@ -1,7 +1,9 @@
 package project.leetcode;
 
 /*
- * 给定一个二叉树，判断它是否是高度平衡的。一棵高度平衡的二叉树是左右子树的高度相差不超过1，对其左右子树也是如此。
+ * https://leetcode.com/problems/balanced-binary-tree/description/
+ * 给定一个二叉树，判断它是否是高度平衡的。一棵高度平衡的二叉树是左右子树的高度相差不超过1，
+ * 对其左右子树也是如此。
  */
 public class BalancedBinraryTree {
 	

@@ -1,6 +1,10 @@
 package project.leetcode;
 
-//交换位置
+/*
+*题目:https://leetcode.com/problems/reverse-integer/description/
+*数字交换位置，如123，返回321
+*/
+
 public class reverse {
 	public static int reverse(int x){
 		if(x>Integer.MAX_VALUE||x<Integer.MIN_VALUE)

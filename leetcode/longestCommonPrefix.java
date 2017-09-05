@@ -1,8 +1,10 @@
 package project.leetcode;
 
 /*
-给若干个字符串数组，找出最长公共字符串
-首先我们假设第一个是公共字符串，让它和后面的每个字符串去比，若出现不同字符，则比较停止，记录停止的位置，最后截取第一个字符串。
+* 题目：https://leetcode.com/problems/longest-common-prefix/description/
+*给若干个字符串数组，找出最长公共字符串
+*首先我们假设第一个是公共字符串，让它和后面的每个字符串去比，
+*若出现不同字符，则比较停止，记录停止的位置，最后截取第一个字符串。
 */
 
 public class longestCommonPrefix {

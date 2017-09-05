@@ -21,7 +21,8 @@ class Interval  {
 public class merInterval {
 
 /*
-先根据区间左边界大小升序排列，然后向右合并
+*  题目；https://leetcode.com/problems/merge-intervals/description/
+* 先根据区间左边界大小升序排列，然后向右合并
 */
 	public static List<Interval> merge(List<Interval> intervals){
 		if(intervals==null||intervals.size()==0)

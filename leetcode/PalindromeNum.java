@@ -1,6 +1,7 @@
 package project.leetcode;
 /*
-数字回文串
+* 题目:https://leetcode.com/problems/palindrome-number/description/
+* 数字回文串
 */
 public class PalindromeNum {
 	public static boolean isPalindrome(int x) {

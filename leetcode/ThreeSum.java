@@ -1,5 +1,6 @@
 /*
-For example, given array S = [-1, 0, 1, 2, -1, -4],
+ 题目；https://leetcode.com/problems/3sum-closest/description/
+For example, given array S = [-1, 0, 1, 2, -1, -4],and target=1
 
 A solution set is:
 [

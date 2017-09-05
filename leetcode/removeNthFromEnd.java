@@ -1,6 +1,7 @@
 package project.leetcode;
 
 /*
+ * 题目:https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
  * 删除链表中倒数第n个位置上节点
  * 我们可以设两个指针，一个快指针，一个慢指针，快指针先向后遍历n个节点，慢指针从头结点开始遍历，当快指针遍历到链表末尾时，
  * 慢指针刚好遍历到(len-n)的位置，即倒数第n个节点的前一个节点；最后删除倒数第n个节点。

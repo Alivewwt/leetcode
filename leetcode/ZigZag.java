@@ -1,7 +1,7 @@
 package project.leetcode;
 
-/**
- * 
+/*
+ * 题目:https://leetcode.com/problems/zigzag-conversion/description/
  * @author wwt
  *给定一个字符串"PAYPALISHIRING",指定打印行数numRows，按'z'型打印，如下所示
  *		P   A   H   N

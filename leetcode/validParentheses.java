@@ -3,7 +3,7 @@ package project.leetcode;
 import java.util.Stack;
 
 /*
- * 题目描述
+ * 题目描述 https://leetcode.com/problems/valid-parentheses/description/
  * 给定一个字符串，只包含’(‘, ‘)’, ‘{‘, ‘}’, ‘[’ 和’]’这些字符，检查它是否是“有效”的。 
  *	括号必须以正确的顺序关闭，例如”()” 和”()[]{}”都是有效的，”(]” 和”([)]”是无效的。
  */
