@@ -48,7 +48,7 @@ dp[3]=dp[0]*dp[2]	（1为根的情况）
 
 $$C_0=1 and C_{n+1}=\sum^n_{i=0}C_iC_{n-i}   for n\geq0$$  
 
-代码如下：
+### 代码
 
 >```java
 >public int numsTree(int n){
