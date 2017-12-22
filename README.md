@@ -1,2 +1,2 @@
 # leetcode_Algorithm
-#记录算法刷题，学习好数据结构。
+#leetcode刷题，刷题代码和笔记整理，供查阅。
