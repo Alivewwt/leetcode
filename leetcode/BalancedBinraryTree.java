@@ -57,5 +57,21 @@ public class BalancedBinraryTree {
 				return 0;
 			return 1+Math.max(getHeight(root.left), getHeight(root.right));
 		}
+
+	public int height(TreeNode node){
+		if(node==null)
+			return 0;
+		int lH=height(node.left)
+		if(lH==-1)
+			return -1;
+		int rH=height(node.right)
+		ig(rH==-1)
+			return -1;
+
+		if(Math.abs(lH-rH)>1)
+			return -1;
+
+		return Math.max(lH,rH)+1;
+	}
 		
 }
