@@ -40,25 +40,16 @@ public class BalancedBinraryTree {
 			int right=depth(n.right);			
 			return 1+(left>right?left:right);
 		}
-			
 	}
-		public boolean isBalancedTree(TreeNode root){
-			if(root==null)
-				return true;
-			if(root.left==null||root.right==null)
-				return true;
-			if(Math.abs(getHeight(root.left)-getHeight(root.right))>1)
-				return false;
-			return isBalancedTree(root.left)&&isBalancedTree(root.right);
-		}
-		
-		public int getHeight(TreeNode root){
-			if(root==null)
-				return 0;
-			return 1+Math.max(getHeight(root.left), getHeight(root.right));
-		}
 
-	public int height(TreeNode node){
+//简洁做法
+public boolean isBalancedTree(TreeNode root){
+		return maxDepth(root)==-1?false:true;
+	}
+		
+		
+
+public int maxDepth(TreeNode node){
 		if(node==null)
 			return 0;
 		int lH=height(node.left)
