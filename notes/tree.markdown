@@ -73,7 +73,7 @@ public List<integer> inorderTraversal(TreeNode root){
 			cur = cur.right;
 		}
 	}
-return list;ß
+return list;
 }
 }
 ~~~
