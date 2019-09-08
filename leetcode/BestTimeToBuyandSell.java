@@ -10,9 +10,9 @@ public class Solution {
         int ans=0;
         for(int i=1;i<prices.length;i++){
             if(prices[i]<low)
-            low=prices[i];
+                low=prices[i];
             else if(prices[i]-low>ans)
-            ans=prices[i]-low;
+                ans=prices[i]-low;
         }
         return ans;
     }
