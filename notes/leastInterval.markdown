@@ -26,7 +26,7 @@ class Solution {
 	int c[]=new int[26];
       for(char t:tasks)
           c[t-'A']++;
-      Arras.sort(c);
+      Arrays.sort(c);
       int i=25;
       while(i>=0&&c[i]==c[25]){
           i--;
