@@ -1,2 +1,4 @@
 # leetcode_Algorithm
-#leetcode刷题  代码和笔记整理
+#leetcode刷题 
+按照题目的难易程度分为eays,medium，hard
+不定期更新题目仓库。
